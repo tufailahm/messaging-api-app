@@ -15,7 +15,7 @@ class MessagingApiAppApplicationTests {
 	@Test
 	void testAdd()
 	{
-		assertTrue(true);
+		assertTrue(false);
 	}
 
 }
