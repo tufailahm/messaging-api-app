@@ -4,7 +4,7 @@ node {
 git branch: 'main', url: 'https://github.com/tufailahm/messaging-api-app.git'
 	    }
 	    stage('Build Project') {
-	      bat "mvn -Dmaven.test.failure.ignore=true clean package"
+	      bat "mvn clean package"
 	    }
 	    stage('Build Docker Image') {
 	    echo "Building docker image -- to do"
