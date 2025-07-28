@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
     @GetMapping("oracle")
     public String printGreetings() {
-        return "Hi Oracle OTH !!";
+        return "Hi Oracle OTH C Block!!";
     }
     @GetMapping
     public String print() {
